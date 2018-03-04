@@ -4,16 +4,30 @@ body{
     background-color: indianred;
 }
 #dvjogo{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
+    position: absolute; 
+	left: 850px; 
+	top: 180px; 
+}
+
+.titulo{
+    position: absolute;
+    left: 850px;
+}
+
+#dvmenu{
+   position: absolute; 
+   left: 850px;
+   top: 500px;
 }
 
 .posJogo{
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
     margin: 0px;
     padding: 0px;
     cursor: pointer;
@@ -24,54 +38,59 @@ body{
 }
 
 .botao{
-    background-color: dodgerblue;
+    width:300px;
+	height:90px;
+	background-color:#6495ed;
+	border-radius: 10px 20px 30px;
 }
 
 #p1{
-    border-right: 1px solid #000;
-    border-bottom: 1px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+
 }
 
 #p2{
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
-    border-bottom: 1px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
 }
 
 #p3{
-    border-left: 1px solid #000;
-    border-bottom: 1px solid #000;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
 }
 
 #p4{
-    border-right: 1px solid #000;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
+    border-right: 2px solid #000;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
 }
 
 #p5{
-    border: 1px solid #000;
+    border: 2px solid #000;
 }
 
 #p6{
-    border-left: 1px solid #000;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
+    border-left: 2px solid #000;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
 }
 
 #p7{
-    border-right: 1px solid #000;
-    border-top: 1px solid #000;
+    border-right: 2px solid #000;
+    border-top: 2px solid #000;
 }
 
 #p8{
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
-    border-top: 1px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-top: 2px solid #000;
 }
 
 #p9{
-    border-left: 1px solid #000;
-    border-top: 1px solid #000;
+    border-left: 2px solid #000;
+    border-top: 2px solid #000;
 }
+
 
